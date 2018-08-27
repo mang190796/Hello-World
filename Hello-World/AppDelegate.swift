@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Hello-World
+//  Hello World
 //
-//  Created by Matthew Ang on 7/25/18.
+//  Created by Matthew Ang on 7/22/18.
 //  Copyright © 2018 Matthew Ang. All rights reserved.
 //
 

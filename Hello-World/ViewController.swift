@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Hello-World
+//  Hello World
 //
-//  Created by Matthew Ang on 7/25/18.
+//  Created by Matthew Ang on 7/22/18.
 //  Copyright © 2018 Matthew Ang. All rights reserved.
 //
 
@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func showMessage(Sender: UIButton) {
+        let alertController = UIAlertController(title: "Welcome to My First App", message: "Hello World", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
 }
 
